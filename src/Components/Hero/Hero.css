@@ -1,0 +1,71 @@
+.hero{
+    height: 100vh;
+    background: url(../Assets/pink.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.hero-left h2{
+    color: #443d3d;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.hero-left p{
+    color: grey;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hand-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hand-hand-icon img{
+    width: 50px;
+}
+
+span{
+    color: rgb(230, 0, 255);
+}
+
+
+.hero-latest-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background-color: rgb(183, 170, 243);
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-latest-btn:hover{
+    background-color: #e8b3ea;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}

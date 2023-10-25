@@ -1,0 +1,28 @@
+.trending{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+
+.trending h1{
+    color: #891b6e;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.trending hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #e30606;
+}
+
+.trending-item{
+    display: flex;
+    margin-top: 50px;
+    gap: 30px;
+    border-radius: 5px;
+}
