@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+   
 }
 
 .trending h1{
@@ -15,8 +15,8 @@
 
 .trending hr {
     width: 200px;
-    height: 6px;
-    border-radius: 10px;
+    height: 2px;
+    border-radius: 5px;
     background: #e30606;
 }
 

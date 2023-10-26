@@ -25,8 +25,9 @@
 }
 
 .item:hover{
-    transform: scale(1.05);
+    transform: scale(1.10);
     transition: 0.6s;
+    filter: brightness(60%);
 }
 
 .item img{
