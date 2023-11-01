@@ -30,9 +30,28 @@ export const ProductDisplay = (props) => {
             </div>
             <div className='productdisplay_right_prices'>
                 <div className='productdisplay_right_oldprice'>
-                    
+                    ${product.old_price}
+                </div>
+                <div className='productdisplay_right_newprice'>
+                    ${product.new_price}
                 </div>
             </div>
+            <div className='productdisplay_right_description'>
+                Style FJ0982-600 Colorway MEDIUM SOFT PINK/WHITE/LOTUS PINK Retail Price $130 Release Date 10/15/2023
+            </div>
+            <div className='productdisplay_right_size'>
+                <h1>Choose Size</h1>
+                <div className='productdisplay_right_sizes'>
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                    <div>XXL</div>
+                </div>
+            </div>
+            <button>ADD TO CART</button>
+            <p className='productdisplay_right_category'><span>Category :</span>Women, T-shirt, Hoodies</p>
+            <p className='productdisplay_right_category'><span>Tags :</span>Modern, Latest</p>
         </div>
     </div>
   )
