@@ -4,6 +4,7 @@ import { Storecontext } from '../Context/Storecontext'
 import dropdown_icon from '../Components/Assets/dropdown_icon.png'
 import all_product from '../Components/Assets/all_product'
 import { Item } from '../Components/Items/Item'
+import { Footer } from '../Components/Footer/Footer'
 
 
 export const Shopcontent = (props) => {

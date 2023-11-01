@@ -48,6 +48,7 @@
     background-color: grey;
     color: beige;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .loadmore:hover{
