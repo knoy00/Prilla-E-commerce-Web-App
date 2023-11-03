@@ -96,3 +96,12 @@
     margin-bottom: 40px;
 }
 
+.productdisplay_right_category{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.productdisplay_right_category span{
+    font-weight: 600;
+    color: red;
+}
